@@ -1,0 +1,41 @@
+1.  Inicio
+2.  // Declaración de variables
+3.  calificacion, d[0-10]
+4.  resultado, x(20)[{a-z}, {A-Z}, {BS}]
+5.  
+6.  // Solicitar al usuario que ingrese la calificación
+7.  Escribir "Ingrese la calificación del estudiante:"
+8.  Leer calificacion
+9.  
+10. // Determinar la calificación cualitativa usando condicionales múltiples
+11. Si calificacion >= 0 y calificacion <= 2 entonces
+12.     resultado <-- "Muy mala"
+13. De lo contrario
+14.     Si calificacion > 2 y calificacion <= 3 entonces
+15.         resultado <-- "Mala"
+16.     De lo contrario
+17.         Si calificacion > 3 y calificacion <= 5 entonces
+18.             resultado <-- "Deficiente"
+19.         De lo contrario
+20.             Si calificacion > 5 y calificacion <= 7 entonces
+21.                 resultado <-- "Buena"
+22.             De lo contrario
+23.                 Si calificacion > 7 y calificacion <= 8 entonces
+24.                     resultado <-- "Buena"
+25.                 De lo contrario
+26.                     Si calificacion > 8 y calificacion <= 9 entonces
+27.                         resultado <-- "Muy buena"
+28.                     De lo contrario
+29.                         Si calificacion > 9 y calificacion <= 10 entonces
+30.                             resultado <-- "Excelente"
+31.                         Fin Si
+32.                     Fin Si
+33.                 Fin Si
+34.             Fin Si
+35.         Fin Si
+36.     Fin Si
+37. Fin Si
+38.  
+39. // Mostrar el resultado al usuario
+40. Escribir "La calificación cualitativa es: " + resultado
+41. Fin
